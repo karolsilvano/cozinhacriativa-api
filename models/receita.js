@@ -48,8 +48,7 @@ const receitaSchema = new Schema({
 
     categoria:{
         type: String,
-        required: false,
-        enum: ['Refeição', 'Doce/Sobremesa', 'Bebida', 'Salgados', 'Lanches']
+        required: false
     },
 },
     {timestamps: true}
